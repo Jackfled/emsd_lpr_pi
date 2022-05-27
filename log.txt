@@ -1,0 +1,721 @@
+INFO:utils.torch_utils:Using CPU
+INFO:utils.torch_utils:
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.25779e+06 parameters, 0 gradients, 16.8 GFLOPS
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.3414e+06 parameters, 0 gradients, 17.1 GFLOPS
+DEBUG:root:2022-05-25T11:32:58.281394+00:00
+AM1100
+TZ6582
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-25T11:34:07.969663+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 55
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 56
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 57
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 58
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 59
+INFO:utils.torch_utils:Using CPU
+INFO:utils.torch_utils:
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.25779e+06 parameters, 0 gradients, 16.8 GFLOPS
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.3414e+06 parameters, 0 gradients, 17.1 GFLOPS
+DEBUG:root:2022-05-25T11:37:34.808061+00:00
+AM1100
+TZ6582
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-25T11:38:44.162103+00:00
+AM1100
+TZ6582
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 1
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 2
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 3
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 4
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 5
+DEBUG:root:2022-05-25T11:39:54.583896+00:00
+MT
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 6
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 7
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 8
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 9
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 10
+DEBUG:root:2022-05-25T11:41:03.917963+00:00
+AM1100
+TZ6582
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 11
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 12
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 13
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 14
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 15
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 16
+INFO:utils.torch_utils:Using CPU
+INFO:utils.torch_utils:
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.25779e+06 parameters, 0 gradients, 16.8 GFLOPS
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.3414e+06 parameters, 0 gradients, 17.1 GFLOPS
+DEBUG:root:2022-05-26T03:25:26.083747+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-26T03:26:36.152520+00:00
+AM1100
+TZ6582
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 22
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 23
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 24
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 25
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 26
+DEBUG:root:2022-05-26T03:27:46.184762+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 27
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 28
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 29
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 30
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 31
+DEBUG:root:2022-05-26T03:28:56.017333+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 32
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 33
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 34
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 35
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 36
+DEBUG:root:2022-05-26T03:30:05.987698+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 37
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 38
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 39
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 40
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 41
+DEBUG:root:2022-05-26T03:31:16.047846+00:00
+AM1100
+TZ6582
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 42
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 43
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 44
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 45
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 46
+DEBUG:root:2022-05-26T03:32:25.751504+00:00
+AM1100
+TZ6582
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 47
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 48
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 49
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 50
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 51
+DEBUG:root:2022-05-26T03:33:35.350521+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 52
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 53
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 54
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 55
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 56
+DEBUG:root:2022-05-26T03:34:45.196476+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 57
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 58
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 59
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 60
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 61
+DEBUG:root:2022-05-26T03:35:54.784840+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 62
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 63
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 64
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 65
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 66
+DEBUG:root:2022-05-26T03:37:04.399153+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 67
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 68
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 69
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 70
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 71
+DEBUG:root:2022-05-26T03:38:14.359605+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 72
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 73
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 74
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 75
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 76
+DEBUG:root:2022-05-26T03:39:24.087775+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 77
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 78
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 79
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 80
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 81
+DEBUG:root:2022-05-26T03:40:33.810325+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 82
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 83
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 84
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 85
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 86
+DEBUG:root:2022-05-26T03:41:43.361889+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 87
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 88
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 89
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 90
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 91
+DEBUG:root:2022-05-26T03:42:53.176977+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 92
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 93
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 94
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 95
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 96
+DEBUG:root:2022-05-26T03:44:02.864963+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 97
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 98
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 99
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 100
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 101
+DEBUG:root:2022-05-26T03:45:12.707944+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 102
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 103
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 104
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 105
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 106
+DEBUG:root:2022-05-26T03:46:22.566973+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 107
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 108
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 109
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 110
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 111
+INFO:utils.torch_utils:Using CPU
+INFO:utils.torch_utils:
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.25779e+06 parameters, 0 gradients, 16.8 GFLOPS
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.3414e+06 parameters, 0 gradients, 17.1 GFLOPS
+DEBUG:root:2022-05-26T04:03:50.872987+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-26T04:05:01.953705+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-26T04:06:13.784805+00:00
+GU16
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-26T04:07:25.325734+00:00
+856
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+INFO:utils.torch_utils:Using CPU
+INFO:utils.torch_utils:
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.25779e+06 parameters, 0 gradients, 16.8 GFLOPS
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.3414e+06 parameters, 0 gradients, 17.1 GFLOPS
+DEBUG:root:2022-05-26T04:10:14.621266+00:00
+TZ6582
+AM11001
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-26T04:11:26.110838+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:OTAA Mode, Network Joined!
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 1
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 2
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 3
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 4
+DEBUG:root:2022-05-26T04:12:37.512673+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 5
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 6
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 7
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 8
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 9
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 10
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 11
+DEBUG:root:2022-05-26T04:13:48.843111+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 12
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 13
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 14
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 15
+DEBUG:root:2022-05-26T04:15:00.090999+00:00
+U6
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 16
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 17
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 18
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 19
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 20
+DEBUG:root:2022-05-26T04:16:11.240189+00:00
+U8
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 21
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 22
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 23
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 24
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 25
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 26
+DEBUG:root:2022-05-26T04:17:22.335838+00:00
+U6
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 27
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 28
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 29
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 30
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 31
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 32
+DEBUG:root:2022-05-26T04:18:33.470577+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 33
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 34
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 35
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 36
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 37
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 38
+DEBUG:root:2022-05-26T04:19:44.782138+00:00
+856
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 39
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 40
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 41
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 42
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 43
+DEBUG:root:2022-05-26T04:20:56.037507+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 44
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 45
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 46
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 47
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 48
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 49
+DEBUG:root:2022-05-26T04:22:07.506560+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 50
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 51
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 52
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 53
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 54
+DEBUG:root:Sending frame now...
+DEBUG:root:2022-05-26T04:23:18.909369+00:00
+U86
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:lmh_send ok count 55
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 56
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 57
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 58
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 59
+INFO:utils.torch_utils:Using CPU
+INFO:utils.torch_utils:
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.25779e+06 parameters, 0 gradients, 16.8 GFLOPS
+INFO:utils.torch_utils:Model Summary: 191 layers, 7.3414e+06 parameters, 0 gradients, 17.1 GFLOPS
+DEBUG:root:2022-05-26T04:24:53.363077+00:00
+U1G
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:2022-05-26T04:26:04.652221+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 66
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 67
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 68
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 69
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 70
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 71
+DEBUG:root:2022-05-26T04:27:15.850192+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 72
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 73
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 74
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 75
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 76
+DEBUG:root:2022-05-26T04:28:27.295935+00:00
+TZ6582
+AM1100
+WF705
+TK772
+LK9230
+
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 77
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 78
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 79
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 80
+DEBUG:root:Sending frame now...
+DEBUG:root:lmh_send ok count 81

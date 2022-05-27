@@ -1,0 +1,21 @@
+# USB camera option
+usb_webcam: False
+
+# IP camera option
+cam_ip: '192.168.8.64'
+usr_name: 'admin'
+pwd: '3124carpark'
+
+# Communication Method
+# 'socket', 'lora', 'http' or 'none'
+comm_method: 'lora'
+
+
+# (if comm_method is 'socket') 
+# Socket server
+HOST: '192.168.1.218'
+PORT: '8000'
+
+# (if comm_method is 'http') 
+# Server URL
+url: 'http://120.25.252.119/plug/scp/lpsent.action?data=received'
