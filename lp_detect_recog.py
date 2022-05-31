@@ -61,15 +61,15 @@ print("timesuptoupdate=%ds" % timesuptoupdate)
 # g_y1 = 823
 
 
-# datetimeNow = datetime.now()
+datetimeYesterday = datetime.now() + timedelta(days = -1)
 
 # parking spots status dictionary, spot id : rectangle of spot, old lp, update at,  new lp
 parkingspots = {
-    "s1" : [[1622, 480, 1928, 750], "", datetime.now(), ""],
-    "s2" : [[1932, 480, 2276, 750], "", datetime.now(), ""],
-    "s3" : [[2300, 480, 2612, 750], "", datetime.now(), ""],
-    "s4" : [[2636, 480, 3023, 750], "", datetime.now(), ""],
-    "s5" : [[3040, 480, 3398, 750], "", datetime.now(), ""]
+        "s1" : [[1622, 480, 1928, 750], "", datetimeYesterday, ""],
+        "s2" : [[1932, 480, 2276, 750], "", datetimeYesterday, ""],
+        "s3" : [[2300, 480, 2612, 750], "", datetimeYesterday, ""],
+        "s4" : [[2636, 480, 3023, 750], "", datetimeYesterday, ""],
+        "s5" : [[3040, 480, 3398, 750], "", datetimeYesterday, ""]
     }
 
 
@@ -113,7 +113,7 @@ def updatespot(newlp, spotid):
 # init sending flag
 def initparkingspotdict():
 
-    print("initparkingspotdict")
+    log.debug("Initparkingspotdict")
     for spotid in parkingspots.keys():
 
         # set old = new
@@ -224,6 +224,8 @@ def sort_characters(det, lp_lines_type, img_lp, img_lp0, names_recog):
 def detect_recog(save_img=False):
 
     configurations = Configurations()
+
+    sendtimes = 0
 
     params = configurations.getParams()
     
@@ -455,13 +457,17 @@ def detect_recog(save_img=False):
                     # result_to_send += result
 
             result_to_send = getupdatespot()
-            log.debug("result_to_send=%s" % result_to_send)
+
+            sendtimes += 1
+
+            log.debug("[%d] result_to_send=%s" % (sendtimes, result_to_send.replace("\n", " ")))
 
             now = datetime.utcnow()
                     
             # dd/mm/YY H:M:S
             # dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
             dt_string = formatDateTime(now)
+
 
             if(result_to_send):
 
@@ -482,8 +488,9 @@ def detect_recog(save_img=False):
                         
                         if ser is None:
                             ser = comm.lora_client.connect()
-                        else:
-                            comm.lora_client.send(ser, result_to_send)
+
+                        comm.lora_client.send(ser, result_to_send)
+
 
 
                     elif(params['comm_method']=='http'):
@@ -492,9 +499,9 @@ def detect_recog(save_img=False):
             else:
 
                 if not findlp:
-                    heartbeat = 'No LP' #.format(dt_string)
+                    heartbeat = '[%d] No LP' % sendtimes #.format(dt_string)
                 else:
-                    heartbeat = "No Updates"
+                    heartbeat = "[%d] No Updates" % sendtimes
 
                 heartbeat_dict = {'Position':'null', 'LP': heartbeat, 'UpdatedAt':dt_string}
 
@@ -505,10 +512,10 @@ def detect_recog(save_img=False):
                     if(params['comm_method']=='socket'):
                         comm.socket_client.send(client, heartbeat)
                     elif(params['comm_method']=='lora'):
-                        # if ser is None:
-                        #     ser = comm.lora_client.connect()
-                        # else:
-                        #     comm.lora_client.send(ser, heartbeat)
+                        if ser is None:
+                            ser = comm.lora_client.connect()
+                        
+                        comm.lora_client.send(ser, heartbeat)
                         pass
 
                     elif(params['comm_method']=='http'):
