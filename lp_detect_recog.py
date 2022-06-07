@@ -5,7 +5,6 @@ import argparse
 import os
 import platform
 import shutil
-import time
 from pathlib import Path
 
 # from sqlalchemy import true
@@ -40,11 +39,11 @@ log = Logger('log/emsd.log', level='debug').logger
 
 
 # sending to server interval seconds
-lprinterval = 60
+lprinterval = 60.0
 
 # print("\nEMSD program starting")
 
-print("lprinterval=%d" % lprinterval)
+print("lprinterval=%.2f" % lprinterval)
 
 # if set false, dont sent to server
 sendtoserver = True
@@ -64,12 +63,39 @@ print("timesuptoupdate=%ds" % timesuptoupdate)
 datetimeYesterday = datetime.now() + timedelta(days = -1)
 
 # parking spots status dictionary, spot id : rectangle of spot, old lp, update at,  new lp
+# parkingspots = {
+#         "s1" : [[1622, 480, 1928, 750], "", datetimeYesterday, ""],
+#         "s2" : [[1932, 480, 2276, 750], "", datetimeYesterday, ""],
+#         "s3" : [[2300, 480, 2612, 750], "", datetimeYesterday, ""],
+#         "s4" : [[2636, 480, 3023, 750], "", datetimeYesterday, ""],
+#         "s5" : [[3040, 480, 3398, 750], "", datetimeYesterday, ""]
+#     }
+
+# parkingspots = {
+#         # "s1" : [[1200, 480, 1377, 750], "", datetimeYesterday, ""],
+#         "s2" : [[1377, 480, 1660, 750], "", datetimeYesterday, ""],
+#         "s3" : [[1660, 480, 1956, 750], "", datetimeYesterday, ""],
+#         "s4" : [[1956, 480, 2293, 750], "", datetimeYesterday, ""],
+#         "s5" : [[2293, 480, 2609, 750], "", datetimeYesterday, ""],
+#         "s6" : [[2609, 480, 3007, 750], "", datetimeYesterday, ""],
+#         "s7" : [[3007, 480, 3462, 750], "", datetimeYesterday, ""],
+#         "s8" : [[3462, 480, 3771, 750], "", datetimeYesterday, ""],
+#         "s9" : [[3771, 480, 4016, 750], "", datetimeYesterday, ""]
+#         # "s10" : [[4016, 480, 4200, 750], "", datetimeYesterday, ""],
+#     }
+
+
 parkingspots = {
-        "s1" : [[1622, 480, 1928, 750], "", datetimeYesterday, ""],
-        "s2" : [[1932, 480, 2276, 750], "", datetimeYesterday, ""],
-        "s3" : [[2300, 480, 2612, 750], "", datetimeYesterday, ""],
-        "s4" : [[2636, 480, 3023, 750], "", datetimeYesterday, ""],
-        "s5" : [[3040, 480, 3398, 750], "", datetimeYesterday, ""]
+        "s1" : [[1222, 662, 1360, 817], "", datetimeYesterday, ""],
+        "s2" : [[1360, 662, 1568, 817], "", datetimeYesterday, ""],
+        "s3" : [[1568, 662, 1815, 817], "", datetimeYesterday, ""],
+        "s4" : [[1815, 662, 2067, 817], "", datetimeYesterday, ""],
+        "s5" : [[2067, 662, 2549, 817], "", datetimeYesterday, ""],
+        "s6" : [[2549, 662, 3099, 817], "", datetimeYesterday, ""],
+        "s7" : [[3099, 662, 3325, 817], "", datetimeYesterday, ""],
+        "s8" : [[3325, 662, 3519, 817], "", datetimeYesterday, ""]
+        # "s9" : [[3325, 662, 3553, 817], "", datetimeYesterday, ""]
+        # "s10" : [[4016, 662, 4200, 817], "", datetimeYesterday, ""],
     }
 
 
@@ -499,9 +525,9 @@ def detect_recog(save_img=False):
             else:
 
                 if not findlp:
-                    heartbeat = '[%d] No LP' % sendtimes #.format(dt_string)
+                    heartbeat = '[%d] NoLP' % sendtimes #.format(dt_string)
                 else:
-                    heartbeat = "[%d] No Updates" % sendtimes
+                    heartbeat = "[%d] HB" % sendtimes
 
                 heartbeat_dict = {'Position':'null', 'LP': heartbeat, 'UpdatedAt':dt_string}
 
@@ -523,9 +549,13 @@ def detect_recog(save_img=False):
 
 
             #print('\nLPR time per frame: {}\n'.format(all_t2_t1))
-            log.debug('LPR time per frame: {}\n'.format(all_t2_t1))
-            log.debug("sleep %d secs" , lprinterval)
-            time.sleep(lprinterval)
+            log.debug('LPR time per frame: %.3f\n', all_t2_t1)
+
+            if lprinterval > all_t2_t1:
+                time.sleep(lprinterval - all_t2_t1)
+                log.debug("sleep %.3f secs\n" , lprinterval - all_t2_t1)
+            else:
+                log.debug("Need no sleep...\n")
 
             # Stream results
             if view_img:
@@ -568,7 +598,7 @@ if __name__ == '__main__':
     # parser.add_argument('--source', type=str, default='rtsp://admin:3124carpark@192.168.31.60:554/h264/ch33/main/av_stream', help='source')
     
     parser.add_argument('--output', type=str, default='inference/output_temp', help='output folder')  # output folder
-    parser.add_argument('--img-size_detect', type=int, default=1600, help='inference size (pixels)')
+    parser.add_argument('--img-size_detect', type=int, default=2400, help='inference size (pixels)')
     parser.add_argument('--img-size_recog', type=int, default=416, help='inference size (pixels)')
     parser.add_argument('--conf-thres_detect', type=float, default=0.4, help='object confidence threshold')
     parser.add_argument('--conf-thres_recog', type=float, default=0.6, help='object confidence threshold')

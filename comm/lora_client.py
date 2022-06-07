@@ -53,8 +53,17 @@ def connect():
     log.debug("Open serial port fail.")
     return None
 
+def close(ser):
+    try:
+        if ser is not None:
+            ser.close()
+            log.debug("Closed serial port successfully.")
+            return
+    except BaseException as err:
+        log.error(err)
 
-
+    log.debug("Closed serial port fail.")
+    return
 '''
 read reply data from serial port
 '''
